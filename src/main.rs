@@ -11,7 +11,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     stdin().read_line(&mut temp)?;
     let temp: f64 = temp.trim().parse()?;
 
-    println!("Voer een eenheid in Typ 'f' voor Fahrenheit of 'k' Kelvin! in");
+    println!("Voer een eenheid in: Typ 'f' voor Fahrenheit of 'k' Kelvin! in");
     stdin().read_line(&mut eenheid)?;
     let eenheid = eenheid.trim();
 
